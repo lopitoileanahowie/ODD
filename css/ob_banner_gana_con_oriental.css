@@ -26,7 +26,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background-color: #802b8b;
   min-height: 150px;
   font-family: 'FuturaStd-Bold';
@@ -35,7 +36,11 @@
 
 .ob-banner-compra-gana .column-text {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   align-items: center;
   justify-content: center;
@@ -44,6 +49,9 @@
 }
 
 .ob-banner-compra-gana .column-text p {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   flex-grow: 1;
   text-align: center;
 }
@@ -53,21 +61,29 @@
 }
 
 .ob-bags-compra-gana {
+  -ms-flex-item-align: end;
   align-self: flex-end;
   margin-left: 10px;
 }
 
 .ob-banner-compra-gana .column-cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 528px;
   align-items: center;
+  -ms-flex-align: center;
   background: url("../images/bg_dot_oriental.png");
   background-color: #f5821f;
   padding: 4px;
 }
 
 .ob-banner-compra-gana .ob-logo-odd {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 199px;
   height: 50px;
@@ -76,6 +92,8 @@
 }
 
 .ob-banner-compra-gana .ob-btn-conocemas {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 216px;
   height: 50px;
@@ -100,6 +118,7 @@
   }
 
   .ob-banner-compra-gana .column-cta {
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 338px;
   }
