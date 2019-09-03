@@ -46,6 +46,7 @@
   justify-content: center;
   flex-grow: 2;
   font-size: 50px;
+  min-heigth: 150px;
 }
 
 .ob-banner-compra-gana .column-text p {
@@ -79,6 +80,7 @@
   background: url("../images/bg_dot_oriental.png");
   background-color: #f5821f;
   padding: 4px;
+  min-heigth: 150px;
 }
 
 .ob-banner-compra-gana .ob-logo-odd {
@@ -140,7 +142,14 @@
     flex-direction: row;
     width: 100%;
     padding: 30px 0;
+    min-height: 85px;
   }
+  
+  .ob-banner-compra-gana .column-text {
+    min-height: 85px;
+
+  }
+  
   .ob-banner-compra-gana .column-text  p {
     padding: 20px;
 
