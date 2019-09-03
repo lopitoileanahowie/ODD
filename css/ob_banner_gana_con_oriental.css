@@ -22,7 +22,11 @@
 .banner a { text-decoration: none; }
 
 .ob-banner-compra-gana {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
   background-color: #802b8b;
   min-height: 150px;
   font-family: 'FuturaStd-Bold';
